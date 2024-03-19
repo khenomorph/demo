@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Parallel Testing Suite">
+    <test name = "Parallel Tests" parallel = "methods">
+        <classes>
+            <class name = "tests.TestWikiHome" />
+        </classes>
+    </test>
+</suite>

@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db8f959c-1c91-4bb5-b6e2-83810facf2d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HotSpringPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TalkPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestWikiHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ElectionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HardcoverPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PublishingPerspectivePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/UkrainianWiki.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TalkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TalkPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestWikiHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestWikiHome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +47,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/roshh/IdeaProjects/wiki/test.xml.executor": "Run",
+    "TestNG.TestWikiHome.Article.executor": "Run",
+    "TestNG.TestWikiHome.CurrentEvents.executor": "Run",
+    "TestNG.TestWikiHome.GeorgeGriffith.executor": "Run",
+    "TestNG.TestWikiHome.GroundWaters.executor": "Run",
+    "TestNG.TestWikiHome.Hardcover.executor": "Run",
     "TestNG.TestWikiHome.HomePage.executor": "Run",
     "TestNG.TestWikiHome.HotSummer.executor": "Run",
+    "TestNG.TestWikiHome.JoinWiki.executor": "Run",
+    "TestNG.TestWikiHome.Login.executor": "Run",
     "TestNG.TestWikiHome.Talk.executor": "Run",
+    "TestNG.TestWikiHome.Ukrainian.executor": "Run",
     "TestNG.TestWikiHome.WikiTest.executor": "Run",
     "TestNG.TestWikiHome.executor": "Run",
     "git-widget-placeholder": "master",
@@ -69,7 +74,7 @@
       <recent name="C:\Users\roshh\IdeaProjects\wiki\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/roshh/IdeaProjects/wiki/test.xml">
+  <component name="RunManager" selected="TestNG.TestWikiHome.Article">
     <configuration name="C:/Users/roshh/IdeaProjects/wiki/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wiki" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/test.xml" />
@@ -80,22 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWikiHome" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWikiHome.Article" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wiki" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestWikiHome" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWikiHome.HotSummer" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="wiki" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestWikiHome" />
-      <option name="METHOD_NAME" value="HotSummer" />
+      <option name="METHOD_NAME" value="Article" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,11 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWikiHome.Talk" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWikiHome.GroundWaters" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wiki" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestWikiHome" />
-      <option name="METHOD_NAME" value="Talk" />
+      <option name="METHOD_NAME" value="GroundWaters" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,11 +121,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWikiHome.WikiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWikiHome.JoinWiki" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wiki" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestWikiHome" />
-      <option name="METHOD_NAME" value="WikiTest" />
+      <option name="METHOD_NAME" value="JoinWiki" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWikiHome.Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wiki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestWikiHome" />
+      <option name="METHOD_NAME" value="Login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestWikiHome.Article" />
+        <item itemvalue="TestNG.TestWikiHome.GroundWaters" />
         <item itemvalue="TestNG.C:/Users/roshh/IdeaProjects/wiki/test.xml" />
-        <item itemvalue="TestNG.TestWikiHome" />
-        <item itemvalue="TestNG.TestWikiHome.Talk" />
-        <item itemvalue="TestNG.TestWikiHome.HotSummer" />
-        <item itemvalue="TestNG.TestWikiHome.WikiTest" />
+        <item itemvalue="TestNG.TestWikiHome.JoinWiki" />
+        <item itemvalue="TestNG.TestWikiHome.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +184,16 @@
       <updated>1710772432611</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

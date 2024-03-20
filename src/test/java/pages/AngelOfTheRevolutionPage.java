@@ -4,10 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.List;
-
-public class ElectionsPage extends BasePage{
-    public ElectionsPage(WebDriver driver) {
+public class AngelOfTheRevolutionPage extends BasePage{
+    public AngelOfTheRevolutionPage(WebDriver driver) {
         super(driver);
     }
 
